@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:  0;padding: 0;
+	box-sizing: border-box;
+	font-family: gudea;
+	
+}
+body{
+	display: grid;
+	place-items: center;
+}
+.cardcontainer{
+	width: 380px;
+	height: 550px;
+	background:linear-gradient(to left, #E75437 0%, #DF9666 100%);
+	border-radius: 25px;
+	display: flex;
+	justify-content: 
+		center;
+	align-items: center;
+	flex-direction: column;
+	}
+header{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	}
+.profile{
+	background-image: url("AA4EB9DE-5050-4DBB-A2B0-17D71E4242CD.PNG");
+	width: 190px;
+	height: 190px;
+	border-radius: 50%;
+	background-size: cover;
+	border: 5px solid #1C0D13;
+				
+}
+.name{
+	color: #1C0D13;
+	font-weight: bold;
+	font-size: 26px;
+	margin-top: 25px;
+}
+.bio{
+     color: #1C0D13;
+	margin-top: 7px;
+	font-weight: bold;
+}	
+section{
+	    display: grid;
+	grid-template-columns: repeat(3,3fr);
+	    grid-gap: 40px;
+	    margin: 0 20px;
+}	
+.cardItem{
+	     display: flex;
+	     flex-direction: column;
+	     align-items: center;
+}	
+.cardItem .value{
+	            font-weight:bold; font-size: 20px;
+	            color: #1C0D13; padding: 5px;
+}	
+.cardItem .title{
+	            font-size: 14px;
+	            color:#1C0D13;
+	letter-spacing: 1px;
+	font-weight:bold;
+}
+.follow{
+	   width: 250px; height: 40px;
+	   border: none; outline: none;
+	   border-radius: 15px;
+	   cursor: pointer;
+	   background-color:#FC9950;
+	   color:#1C0D13;
+}
+.more{
+	  display: grid;
+	  grid-template-columns: repeat(3,3fr);
+	  grid-gap: 80px;
+	  margin: 40px 0 0;
+}
+.more i{
+	   font-size: 30px;
+	   color:black;
+	   cursor: pointer;
+		
+}
+
